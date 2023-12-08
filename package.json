@@ -1,0 +1,16 @@
+{
+  "name": "pub-sub",
+  "version": "1.0.0",
+  "description": "pub sub global state",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup index.js --file ./dist/bundle.js --format iife --name \"gstate\""
+  },
+  "keywords": [
+    "pub-sub",
+    "state"
+  ],
+  "author": "Stelios R",
+  "license": "ISC"
+}
